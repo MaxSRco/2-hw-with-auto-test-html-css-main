@@ -88,7 +88,7 @@ select {
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
-    padding-left: 20px;
+    padding: 0 20px;
     list-style-image: url(./assets/images/Arrow.svg);
 }
 
@@ -98,7 +98,7 @@ select {
     font-weight: 400;
     font-size: 16px;
     color: #303030;
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 .label {
@@ -156,7 +156,7 @@ th, td {
 footer {
     /* Стили для футера */
     background-color: rgba(163, 167, 255, 0.3);
-    padding: 26px 1px;
+    padding: 26px 0;
 }
 
 .footer-link {
